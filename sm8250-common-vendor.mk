@@ -1301,7 +1301,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/oneplus/sm8250-common/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/oneplus/sm8250-common/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
-    vendor/oneplus/sm8250-common/proprietary/vendor/bin/hw/vendor.qti.hardware.display.composer-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.display.composer-service \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/ArmHDCP_QTI_Android.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ArmHDCP_QTI_Android.cfg \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/OPlus_QC_LTM_Commercial_SM8250_2020_02_07.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/OPlus_QC_LTM_Commercial_SM8250_2020_02_07.pfm \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/Oppo_QC_LTM_Commercial_SM8250_2020_01_15.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/Oppo_QC_LTM_Commercial_SM8250_2020_01_15.pfm \
@@ -1584,9 +1583,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/camera/CFR_OnePlus_UW_video.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/CFR_OnePlus_UW_video.bin \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/camera/CFR_para2_OnePlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/CFR_para2_OnePlus_EF017_UW_snapshot.bin \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
-    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libhistogram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhistogram.so \
-    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
-    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmcore.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/oneplus/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/oneplus/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
@@ -1932,7 +1928,7 @@ PRODUCT_PACKAGES += \
     libgps.utils \
     libhdr_tm \
     libhexagon_nn_stub \
-    libhistogram_vendor \
+    libhistogram \
     libhta \
     libhta_hexagon_runtime \
     libipebpsstriping \
@@ -1993,12 +1989,12 @@ PRODUCT_PACKAGES += \
     libril-qc-radioconfig \
     librilqmiservices \
     librpmb \
-    libsdedrm_vendor \
+    libsdedrm \
     libsdm-color \
     libsdm-colormgr-algo \
     libsdm-diag \
     libsdm-disp-vndapis \
-    libsdmcore_vendor \
+    libsdmcore \
     libsdmextension \
     libsdmutils \
     libsecureui \
@@ -2321,7 +2317,7 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor.qti.hardware.display.composer-service_vendor \
+    vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.perf@2.2-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
